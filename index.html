@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Basic Calculator</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="calculator-screen" id="display" disabled />
+        
+        <!-- Div que contém os botões da calculadora -->
+        <div class="calculator-keys">
+            <!-- Botões numéricos e de operadores -->
+            <button type="button" class="btn" value="7">7</button>
+            <button type="button" class="btn" value="8">8</button>
+            <button type="button" class="btn" value="9">9</button>
+            <button type="button" class="btn operator" value="+">+</button>
+
+            <button type="button" class="btn" value="4">4</button>
+            <button type="button" class="btn" value="5">5</button>
+            <button type="button" class="btn" value="6">6</button>
+            <button type="button" class="btn operator" value="-">-</button>
+
+            <button type="button" class="btn" value="1">1</button>
+            <button type="button" class="btn" value="2">2</button>
+            <button type="button" class="btn" value="3">3</button>
+            <button type="button" class="btn operator" value="*">*</button>
+
+            <button type="button" class="btn" value="0">0</button>
+            <button type="button" class="btn" value=".">.</button>
+            <button type="button" class="btn operator" value="/">/</button>
+            <button type="button" class="btn" id="clear">C</button>
+
+            <!-- Botão de igual -->
+            <button type="button" class="btn equal-sign" value="=">=</button>
+        </div>
+    </div>
+    
+    <!-- Link para o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
